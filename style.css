@@ -354,6 +354,11 @@ a {
   cursor: zoom-in;
 }
 
+.project-video-gif {
+  object-fit: cover;
+  cursor: default;
+}
+
 .project-writing-card video {
   object-fit: cover;
   cursor: default;
@@ -364,6 +369,7 @@ a {
   border: 0;
 }
 
+.project-video-card-wide img,
 .project-video-card-wide video,
 .project-video-card-wide iframe {
   aspect-ratio: auto;
