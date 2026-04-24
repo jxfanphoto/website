@@ -1,4 +1,6 @@
 .DS_Store
 Photoes/.DS_Store
 Video/
+!Video/
+!Video/*.gif
 *.mp4
