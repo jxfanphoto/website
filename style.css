@@ -362,7 +362,6 @@ a {
 
 .project-writing-card iframe {
   border: 0;
-  pointer-events: none;
 }
 
 .project-video-card-wide video,
@@ -394,6 +393,20 @@ a {
   font-size: 13px;
   line-height: 1.75;
   color: #333;
+}
+
+.project-video-link,
+.project-video-link:last-child {
+  font-size: 10px;
+  line-height: 1.5;
+  color: var(--color-muted);
+  margin-top: 8px;
+}
+
+.project-video-link a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 0.14em;
 }
 
 .project-writing-text p:empty {
