@@ -27,7 +27,7 @@
         <a href="#" class="active" data-page="works">Works</a>
         <div class="sidebar-subnav">
           <a href="#" data-page="unchanged-project">(un)Changed</a>
-          <a href="#" data-page="works" data-scroll-target="clock-project">The Clock project</a>
+          <a href="#" data-page="clock-project-detail">The Clock project</a>
           <a href="#" data-page="quadrangular-project">Quadrangular</a>
         </div>
       </div>
@@ -49,7 +49,7 @@
         </div>
       </div>
 
-      <div class="project-group" id="clock-project">
+      <div class="project-group project-entry" id="clock-project" data-page="clock-project-detail" role="button" tabindex="0" aria-label="Open The Clock Project page">
         <div class="project-photos project-photos-double">
           <div class="cell cell-clock-wide"><img src="Photoes/Glliter.jpg" alt="" class="clock-cover-img clock-cover-img-glitter"></div>
           <div class="cell cell-clock-square"><img src="Photoes/1min.jpg" alt="" class="clock-cover-img clock-cover-img-purple"></div>
@@ -130,6 +130,53 @@
             <div class="project-writing-text">
               <h2>rupture, 2025</h2>
               <p class="project-writing-medium">Inkjet Prints</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="page" id="clock-project-detail">
+      <div class="project-detail">
+        <button class="project-back" type="button" data-page="works">Back to Works</button>
+
+        <div class="project-detail-header">
+          <p class="project-detail-meta">Video</p>
+          <h1>The Clock Project</h1>
+        </div>
+
+        <div class="project-writing-grid">
+          <article class="project-writing-card project-video-card project-video-card-wide">
+            <iframe
+              src=""
+              data-src="https://www.youtube.com/embed/TzX1Ns8NJbU?autoplay=1&mute=1&controls=0&loop=1&playlist=TzX1Ns8NJbU&playsinline=1&rel=0"
+              title="Glitter video"
+              loading="lazy"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allow="autoplay; encrypted-media; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+            <div class="project-writing-text">
+              <h2>Glitter</h2>
+              <p class="project-writing-medium">Video</p>
+              <p>2 Minutes and 6 Seconds</p>
+            </div>
+          </article>
+
+          <article class="project-writing-card project-video-card">
+            <iframe
+              src=""
+              data-src="https://www.youtube.com/embed/7Ki_uXYRl9c?autoplay=1&mute=1&controls=0&loop=1&playlist=7Ki_uXYRl9c&playsinline=1&rel=0"
+              title="1mins video"
+              loading="lazy"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allow="autoplay; encrypted-media; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+            <div class="project-writing-text">
+              <h2>1mins</h2>
+              <p class="project-writing-medium">Video</p>
+              <p>1 Minute and 2 Seconds</p>
             </div>
           </article>
         </div>
@@ -236,7 +283,7 @@
 
         <aside class="bio-contact-side">
           <figure class="bio-portrait">
-            <img src="Photoes/portrait-placeholder.svg" alt="Portrait placeholder for Fan Junxuan">
+            <img src="Photoes/Portrait.png" alt="Portrait of Fan Junxuan">
           </figure>
 
           <div class="contact-card">
@@ -253,13 +300,13 @@
                 </a>
               </li>
               <li>
-                <a href="https://instagram.com/r3naissance" class="contact-link" target="_blank" rel="noopener noreferrer" aria-label="Open Instagram profile r3naissance">
+                <a href="https://instagram.com/030300030rrr" class="contact-link" target="_blank" rel="noopener noreferrer" aria-label="Open Instagram profile 030300030rrr">
                   <span class="contact-icon" aria-hidden="true">
                     <svg viewBox="0 0 24 24" role="img" focusable="false">
                       <path d="M7.25 3h9.5A4.25 4.25 0 0 1 21 7.25v9.5A4.25 4.25 0 0 1 16.75 21h-9.5A4.25 4.25 0 0 1 3 16.75v-9.5A4.25 4.25 0 0 1 7.25 3Zm0 1.5A2.75 2.75 0 0 0 4.5 7.25v9.5a2.75 2.75 0 0 0 2.75 2.75h9.5a2.75 2.75 0 0 0 2.75-2.75v-9.5A2.75 2.75 0 0 0 16.75 4.5h-9.5Zm10.13 1.13a1.12 1.12 0 1 1 0 2.24 1.12 1.12 0 0 1 0-2.24ZM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 1.5A3.5 3.5 0 1 0 12 15.5 3.5 3.5 0 0 0 12 8.5Z"/>
                     </svg>
                   </span>
-                  <span>@r3naissance</span>
+                  <span>@030300030rrr</span>
                 </a>
               </li>
             </ul>
@@ -290,10 +337,34 @@
     const links = document.querySelectorAll('.sidebar-nav a[data-page]');
     const pages = document.querySelectorAll('.page');
     const pageTriggers = document.querySelectorAll('[data-page]');
+    const clockProjectVideos = Array.from(document.querySelectorAll('#clock-project-detail video'));
+    const clockProjectEmbeds = Array.from(document.querySelectorAll('#clock-project-detail iframe[data-src]'));
+
+    function syncClockProjectPlayback(activePage) {
+      clockProjectVideos.forEach(video => {
+        if (activePage === 'clock-project-detail') {
+          video.currentTime = video.currentTime || 0;
+          video.play().catch(() => {});
+        } else {
+          video.pause();
+        }
+      });
+
+      clockProjectEmbeds.forEach(frame => {
+        if (activePage === 'clock-project-detail') {
+          if (!frame.src) {
+            frame.src = frame.dataset.src;
+          }
+        } else if (frame.src) {
+          frame.src = '';
+        }
+      });
+    }
 
     function showPage(target) {
-      links.forEach(l => l.classList.toggle('active', l.dataset.page === target || ((target === 'unchanged-project' || target === 'quadrangular-project') && l.dataset.page === 'works')));
+      links.forEach(l => l.classList.toggle('active', l.dataset.page === target || ((target === 'unchanged-project' || target === 'clock-project-detail' || target === 'quadrangular-project') && l.dataset.page === 'works')));
       pages.forEach(p => p.classList.toggle('active', p.id === target));
+      syncClockProjectPlayback(target);
 
       if (target === 'quadrangular-project') {
         initBookReader();
@@ -500,6 +571,7 @@
     bookPrevButtons.forEach(button => button.addEventListener('click', () => stepBook(-1)));
     bookNextButtons.forEach(button => button.addEventListener('click', () => stepBook(1)));
     renderBookSpread();
+    syncClockProjectPlayback('works');
   </script>
 
 </body>

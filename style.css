@@ -339,14 +339,36 @@ a {
   width: 100%;
 }
 
-.project-writing-card img {
+.project-writing-card img,
+.project-writing-card video,
+.project-writing-card iframe {
   width: 100%;
   aspect-ratio: 1 / 1;
-  object-fit: cover;
   display: block;
   margin-bottom: 16px;
   background: #f1f1f1;
+}
+
+.project-writing-card img {
+  object-fit: cover;
   cursor: zoom-in;
+}
+
+.project-writing-card video {
+  object-fit: cover;
+  cursor: default;
+  pointer-events: none;
+}
+
+.project-writing-card iframe {
+  border: 0;
+  pointer-events: none;
+}
+
+.project-video-card-wide video,
+.project-video-card-wide iframe {
+  aspect-ratio: auto;
+  background: #fff;
 }
 
 .project-writing-text {
@@ -814,7 +836,7 @@ body.lightbox-open {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: 70% center;
+  object-position: center 22%;
   display: block;
 }
 
