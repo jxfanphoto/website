@@ -153,7 +153,7 @@
               muted
               loop
               playsinline
-              preload="metadata"
+              preload="auto"
               aria-label="Glitter video"
             ></video>
             <div class="project-writing-text">
@@ -173,7 +173,7 @@
               muted
               loop
               playsinline
-              preload="metadata"
+              preload="auto"
               aria-label="1mins video"
             ></video>
             <div class="project-writing-text">
@@ -350,6 +350,7 @@
       clockProjectVideos.forEach(video => {
         if (activePage === 'clock-project-detail') {
           video.currentTime = video.currentTime || 0;
+          video.load();
           video.play().catch(() => {});
         } else {
           video.pause();
