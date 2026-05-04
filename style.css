@@ -4,7 +4,7 @@
   padding: 0;
 }
 
-html[data-theme="light"] {
+:root {
   color-scheme: light;
 }
 
@@ -34,34 +34,36 @@ html[data-theme="light"] {
   --font: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-html[data-theme="dark"] {
-  color-scheme: dark;
-  --color-text: #e9e5de;
-  --color-muted: #9e978d;
-  --color-light: #6f685f;
-  --color-bg: #11100f;
-  --color-border: #262321;
-  --color-surface: #171514;
-  --color-surface-soft: #1d1a18;
-  --color-surface-subtle: #1a1715;
-  --color-intro: #cbc4bb;
-  --color-soft-text: #c7c0b6;
-  --color-heading-soft: #d7d0c6;
-  --color-copy-soft: #9f988e;
-  --color-book-stage-start: rgba(46, 40, 36, 0.98);
-  --color-book-stage-mid: rgba(28, 25, 23, 0.88);
-  --color-book-stage-end: rgba(19, 17, 16, 0.98);
-  --color-book-border: #312b27;
-  --color-book-page: #1a1715;
-  --color-book-nav: #d9d1c7;
-  --color-bio-heading: #ece5dc;
-  --color-bio-copy: #cec6bc;
-  --color-portrait-bg: #1d2028;
-}
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --color-text: #e9e5de;
+    --color-muted: #9e978d;
+    --color-light: #6f685f;
+    --color-bg: #11100f;
+    --color-border: #262321;
+    --color-surface: #171514;
+    --color-surface-soft: #1d1a18;
+    --color-surface-subtle: #1a1715;
+    --color-intro: #cbc4bb;
+    --color-soft-text: #c7c0b6;
+    --color-heading-soft: #d7d0c6;
+    --color-copy-soft: #9f988e;
+    --color-book-stage-start: rgba(46, 40, 36, 0.98);
+    --color-book-stage-mid: rgba(28, 25, 23, 0.88);
+    --color-book-stage-end: rgba(19, 17, 16, 0.98);
+    --color-book-border: #312b27;
+    --color-book-page: #1a1715;
+    --color-book-nav: #d9d1c7;
+    --color-bio-heading: #ece5dc;
+    --color-bio-copy: #cec6bc;
+    --color-portrait-bg: #1d2028;
+  }
 
-html[data-theme="dark"] .sidebar-logo-image {
-  mix-blend-mode: normal;
-  opacity: 0.94;
+  .sidebar-logo-image {
+    mix-blend-mode: normal;
+    opacity: 0.94;
+  }
 }
 
 html {
@@ -98,15 +100,11 @@ a {
 .sidebar-logo {
   width: 112px;
   height: 112px;
-  border: none;
-  background: none;
-  padding: 0;
   margin-bottom: 14px;
   margin-left: 0;
   position: relative;
   align-self: flex-start;
   transition: opacity 0.18s ease;
-  cursor: pointer;
 }
 
 .sidebar-logo.is-switching {
@@ -152,9 +150,6 @@ a {
   margin-bottom: 18px;
 }
 
-.sidebar-logo:hover {
-  opacity: 0.84;
-}
 
 .sidebar-nav {
   display: flex;
