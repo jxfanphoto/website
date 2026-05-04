@@ -10,9 +10,9 @@
 <body>
 
   <aside class="sidebar">
-    <div class="sidebar-logo" id="site-logo" data-logo-state="works" aria-label="Junxuan Fan logo">
+    <button class="sidebar-logo" id="site-logo" data-logo-state="works" type="button" aria-label="Switch color mode">
       <img src="Logo/Logo1.png" alt="Junxuan Fan logo" class="sidebar-logo-image" id="site-logo-image">
-    </div>
+    </button>
 
     <div class="sidebar-name">
       <div class="en">Junxuan Fan</div>
@@ -368,8 +368,27 @@
       }
     };
 
+    function getPreferredTheme() {
+      const savedTheme = window.localStorage.getItem('theme-preference');
+      if (savedTheme === 'light' || savedTheme === 'dark') {
+        return savedTheme;
+      }
+
+      return colorSchemeQuery.matches ? 'dark' : 'light';
+    }
+
+    function updateThemeToggleLabel(theme) {
+      if (!siteLogo) return;
+      siteLogo.setAttribute('aria-label', theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
+    }
+
+    function applyTheme(theme) {
+      document.documentElement.dataset.theme = theme;
+      updateThemeToggleLabel(theme);
+    }
+
     function getLogoSrc(state) {
-      const scheme = colorSchemeQuery.matches ? 'dark' : 'light';
+      const scheme = document.documentElement.dataset.theme === 'dark' ? 'dark' : 'light';
       return logoSources[scheme][state] || logoSources[scheme].works;
     }
 
@@ -392,7 +411,16 @@
       }, 140);
     }
 
+    siteLogo?.addEventListener('click', () => {
+      const nextTheme = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
+      window.localStorage.setItem('theme-preference', nextTheme);
+      applyTheme(nextTheme);
+      syncLogoState(document.querySelector('.page.active')?.id || 'works');
+    });
+
     colorSchemeQuery.addEventListener('change', () => {
+      if (window.localStorage.getItem('theme-preference')) return;
+      applyTheme(getPreferredTheme());
       syncLogoState(document.querySelector('.page.active')?.id || 'works');
     });
 
@@ -625,6 +653,7 @@
     bookPrevButtons.forEach(button => button.addEventListener('click', () => stepBook(-1)));
     bookNextButtons.forEach(button => button.addEventListener('click', () => stepBook(1)));
     renderBookSpread();
+    applyTheme(getPreferredTheme());
     syncLogoState('works');
     syncClockProjectPlayback('works');
   </script>
