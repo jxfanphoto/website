@@ -21,7 +21,7 @@
 
     <div class="sidebar-bio">
       Through photography and text,<br>
-      I explore memory and existence
+      I explore memory and existence.
     </div>
 
     <nav class="sidebar-nav">
@@ -33,7 +33,13 @@
           <a href="#" data-page="quadrangular-project">Quadrangular</a>
         </div>
       </div>
-      <a href="#" data-page="gallery">Gallery</a>
+      <div class="nav-group">
+        <a href="#" data-page="gallery">Gallery</a>
+        <div class="sidebar-subnav">
+          <a href="#" data-page="gallery-black-white">Black&amp;White</a>
+          <a href="#" data-page="gallery-color">Color</a>
+        </div>
+      </div>
       <a href="#" data-page="bio-contact">bio/contact</a>
     </nav>
   </aside>
@@ -235,9 +241,33 @@
           <p>Individual Photographic works</p>
         </header>
 
-        <section class="gallery-section" aria-labelledby="gallery-black-white">
-          <h2 id="gallery-black-white">Black&amp;White</h2>
-          <div class="gallery-grid gallery-grid-standard">
+        <div class="gallery-category-grid">
+          <article class="gallery-category-card" data-page="gallery-black-white" role="button" tabindex="0" aria-label="Open Black and White gallery">
+            <div class="gallery-category-swatch gallery-category-swatch-bw" aria-hidden="true"></div>
+            <div class="gallery-category-overlay">
+              <span>Black &amp; White</span>
+            </div>
+          </article>
+          <article class="gallery-category-card" data-page="gallery-color" role="button" tabindex="0" aria-label="Open Color gallery">
+            <div class="gallery-category-swatch gallery-category-swatch-color" aria-hidden="true"></div>
+            <div class="gallery-category-overlay">
+              <span>Color</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="page" id="gallery-black-white">
+      <div class="gallery-page">
+        <button class="project-back" type="button" data-page="gallery">Back to Gallery</button>
+        <header class="gallery-header">
+          <h1>Black&amp;White</h1>
+          <p>Individual Photographic works</p>
+        </header>
+
+        <section class="gallery-section" aria-label="Black and White photographic works">
+          <div class="gallery-grid gallery-grid-black-white">
             <figure class="gallery-item">
               <img src="Photoes/Individual Photographic Works/车轱辘碾过如山倒.jpg" alt="车轱辘碾过如山倒">
             </figure>
@@ -256,20 +286,27 @@
             <figure class="gallery-item">
               <img src="Photoes/Individual Photographic Works/囧.jpg" alt="囧">
             </figure>
+            <figure class="gallery-item gallery-item-wide">
+              <img src="Photoes/Individual Photographic Works/theatre.jpg" alt="theatre">
+            </figure>
             <figure class="gallery-item">
               <img src="Photoes/Individual Photographic Works/集体意识太难看.jpg" alt="集体意识太难看">
             </figure>
           </div>
-          <div class="gallery-grid gallery-grid-wide">
-            <figure class="gallery-item">
-              <img src="Photoes/Individual Photographic Works/theatre.jpg" alt="theatre">
-            </figure>
-          </div>
         </section>
+      </div>
+    </section>
 
-        <section class="gallery-section" aria-labelledby="gallery-color">
-          <h2 id="gallery-color">Color</h2>
-          <div class="gallery-grid gallery-grid-wide">
+    <section class="page" id="gallery-color">
+      <div class="gallery-page">
+        <button class="project-back" type="button" data-page="gallery">Back to Gallery</button>
+        <header class="gallery-header">
+          <h1>Color</h1>
+          <p>Individual Photographic works</p>
+        </header>
+
+        <section class="gallery-section" aria-label="Color photographic works">
+          <div class="gallery-grid gallery-grid-color">
             <figure class="gallery-item">
               <img src="Photoes/Individual Photographic Works/B0001867.jpg" alt="B0001867">
             </figure>
@@ -292,6 +329,10 @@
           <p class="about-tagline">
             b. 2003, Shanghai, China<br>
             Based in Shanghai / Chicago
+          </p>
+
+          <p class="artist-statement-link">
+            <a href="Artist Statement.pdf" target="_blank" rel="noopener noreferrer">Artist Statement PDF</a>
           </p>
 
           <p class="about-bio">
@@ -404,6 +445,8 @@
       'clock-project-detail': 'clock',
       'quadrangular-project': 'quadrangular',
       gallery: 'works',
+      'gallery-black-white': 'works',
+      'gallery-color': 'works',
       'bio-contact': 'bio-contact'
     };
     const logoSources = {
@@ -474,7 +517,9 @@
     }
 
     function showPage(target) {
-      links.forEach(l => l.classList.toggle('active', l.dataset.page === target || ((target === 'unchanged-project' || target === 'clock-project-detail' || target === 'quadrangular-project') && l.dataset.page === 'works')));
+      const workPages = ['unchanged-project', 'clock-project-detail', 'quadrangular-project'];
+      const galleryPages = ['gallery-black-white', 'gallery-color'];
+      links.forEach(l => l.classList.toggle('active', l.dataset.page === target || (workPages.includes(target) && l.dataset.page === 'works') || (galleryPages.includes(target) && l.dataset.page === 'gallery')));
       pages.forEach(p => p.classList.toggle('active', p.id === target));
       syncLogoState(target);
       syncClockProjectPlayback(target);
@@ -498,6 +543,15 @@
     });
 
     document.querySelectorAll('.project-entry').forEach(entry => {
+      entry.addEventListener('keydown', e => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          showPage(entry.dataset.page);
+        }
+      });
+    });
+
+    document.querySelectorAll('.gallery-category-card').forEach(entry => {
       entry.addEventListener('keydown', e => {
         if (e.key === 'Enter' || e.key === ' ') {
           e.preventDefault();

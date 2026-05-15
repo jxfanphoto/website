@@ -195,6 +195,11 @@ a {
   margin-top: 2px;
 }
 
+.nav-group:has(.sidebar-subnav a.active) .sidebar-subnav {
+  max-height: 88px;
+  margin-top: 2px;
+}
+
 .main {
   margin-left: var(--sidebar-width);
   flex: 1;
@@ -850,6 +855,98 @@ body.lightbox-open {
   color: var(--color-muted);
 }
 
+.gallery-category-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  max-width: 100%;
+}
+
+.gallery-category-card {
+  position: relative;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  cursor: pointer;
+  background: var(--color-bg);
+}
+
+.gallery-category-swatch,
+.gallery-category-overlay {
+  position: absolute;
+  inset: 0;
+}
+
+.gallery-category-swatch {
+  opacity: 0;
+  transition: opacity 0.35s ease;
+}
+
+.gallery-category-swatch-bw {
+  background: #050505;
+}
+
+.gallery-category-swatch-color {
+  background:
+    linear-gradient(115deg, rgba(255, 42, 42, 0.9), rgba(255, 225, 70, 0.82) 24%, rgba(51, 213, 101, 0.84) 47%, rgba(46, 139, 255, 0.86) 70%, rgba(162, 72, 255, 0.84));
+}
+
+.gallery-category-overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  pointer-events: none;
+}
+
+.gallery-category-overlay span {
+  color: var(--color-text);
+  font-size: clamp(34px, 6vw, 68px);
+  font-weight: 400;
+  line-height: 1;
+  text-align: center;
+  transition: color 0.35s ease, text-shadow 0.35s ease;
+}
+
+.gallery-category-card:hover .gallery-category-swatch,
+.gallery-category-card:focus-visible .gallery-category-swatch {
+  opacity: 1;
+}
+
+.gallery-category-card:first-child .gallery-category-overlay span {
+  color: var(--color-text);
+}
+
+.gallery-category-card:first-child:hover .gallery-category-overlay span,
+.gallery-category-card:first-child:focus-visible .gallery-category-overlay span {
+  color: #fff;
+}
+
+.gallery-category-card:nth-child(2) .gallery-category-overlay span {
+  color: var(--color-text);
+}
+
+.gallery-category-card:nth-child(2):hover .gallery-category-overlay span,
+.gallery-category-card:nth-child(2):focus-visible .gallery-category-overlay span {
+  color: #fff;
+  text-shadow: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  .gallery-category-swatch-bw {
+    background: #f5f5f5;
+  }
+
+  .gallery-category-card:first-child:hover .gallery-category-overlay span,
+  .gallery-category-card:first-child:focus-visible .gallery-category-overlay span {
+    color: #050505;
+  }
+
+  .gallery-category-card:nth-child(2):hover .gallery-category-overlay span,
+  .gallery-category-card:nth-child(2):focus-visible .gallery-category-overlay span {
+    color: #050505;
+  }
+}
+
 .gallery-section {
   margin-top: 44px;
 }
@@ -876,16 +973,16 @@ body.lightbox-open {
   margin-top: 16px;
 }
 
-.gallery-grid-standard {
+.gallery-grid-black-white {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
-.gallery-grid-wide {
+.gallery-grid-color {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
-.gallery-grid-wide .gallery-item:only-child {
-  grid-column: 1 / -1;
+.gallery-item-wide {
+  grid-column: span 2;
 }
 
 .gallery-item {
@@ -935,7 +1032,21 @@ body.lightbox-open {
   font-size: 13px;
   color: var(--color-muted);
   line-height: 1.75;
-  margin-bottom: 22px;
+  margin-bottom: 10px;
+}
+
+.artist-statement-link {
+  font-size: 12px;
+  color: var(--color-soft-text);
+  margin-bottom: 24px;
+}
+
+.artist-statement-link a {
+  border-bottom: 1px solid currentColor;
+}
+
+.artist-statement-link a:hover {
+  color: var(--color-text);
 }
 
 .about-bio {
@@ -1068,9 +1179,14 @@ body.lightbox-open {
     grid-template-columns: 1fr;
   }
 
-  .gallery-grid-standard,
-  .gallery-grid-wide {
+  .gallery-category-grid,
+  .gallery-grid-black-white,
+  .gallery-grid-color {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .gallery-item-wide {
+    grid-column: auto;
   }
 
   .book-stage {
@@ -1155,9 +1271,14 @@ body.lightbox-open {
     margin-top: 34px;
   }
 
-  .gallery-grid-standard,
-  .gallery-grid-wide {
+  .gallery-category-grid,
+  .gallery-grid-black-white,
+  .gallery-grid-color {
     grid-template-columns: 1fr;
+  }
+
+  .gallery-item-wide {
+    grid-column: auto;
   }
 
   .gallery-item {
