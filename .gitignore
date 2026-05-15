@@ -1,5 +1,6 @@
 .DS_Store
 Photoes/.DS_Store
+Photoes/Individual Photographic Works/*.png
 Video/
 !Video/
 !Video/*.gif

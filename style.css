@@ -828,6 +828,76 @@ body.lightbox-open {
   right: 20px;
 }
 
+.gallery-page {
+  max-width: 1180px;
+}
+
+.gallery-header {
+  margin-bottom: 30px;
+}
+
+.gallery-header h1 {
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 1.05;
+  margin-bottom: 10px;
+}
+
+.gallery-header p {
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-muted);
+}
+
+.gallery-section {
+  margin-top: 44px;
+}
+
+.gallery-section:first-of-type {
+  margin-top: 0;
+}
+
+.gallery-section h2 {
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 0.06em;
+  color: var(--color-soft-text);
+  margin-bottom: 16px;
+}
+
+.gallery-grid {
+  display: grid;
+  gap: 16px;
+  align-items: start;
+}
+
+.gallery-grid + .gallery-grid {
+  margin-top: 16px;
+}
+
+.gallery-grid-standard {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.gallery-grid-wide {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.gallery-grid-wide .gallery-item:only-child {
+  grid-column: 1 / -1;
+}
+
+.gallery-item {
+  background: var(--color-surface-soft);
+}
+
+.gallery-item img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .bio-contact-layout {
   display: grid;
   grid-template-columns: minmax(0, 1.45fr) minmax(300px, 360px);
@@ -998,6 +1068,11 @@ body.lightbox-open {
     grid-template-columns: 1fr;
   }
 
+  .gallery-grid-standard,
+  .gallery-grid-wide {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .book-stage {
     min-height: 68vh;
     padding: 32px 62px;
@@ -1070,6 +1145,23 @@ body.lightbox-open {
 
   .project-detail-header h1 {
     font-size: 28px;
+  }
+
+  .gallery-header h1 {
+    font-size: 28px;
+  }
+
+  .gallery-section {
+    margin-top: 34px;
+  }
+
+  .gallery-grid-standard,
+  .gallery-grid-wide {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery-item {
+    margin-bottom: 0;
   }
 
   .project-detail-intro {
