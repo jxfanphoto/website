@@ -203,6 +203,7 @@ a {
 .main {
   margin-left: var(--sidebar-width);
   flex: 1;
+  min-width: 0;
   padding: 40px 36px;
   min-height: 100vh;
 }
@@ -428,6 +429,7 @@ a {
 }
 
 .project-writing-card img {
+  height: auto;
   object-fit: cover;
   cursor: zoom-in;
 }
@@ -435,6 +437,12 @@ a {
 .project-video-gif {
   object-fit: cover;
   cursor: pointer;
+}
+
+.experiment-card img {
+  height: auto;
+  aspect-ratio: auto;
+  object-fit: contain;
 }
 
 .project-writing-card video {
@@ -465,13 +473,15 @@ a {
   margin-bottom: 6px;
 }
 
-#unchanged-project .project-writing-text h2 {
+#unchanged-project .project-writing-text h2,
+#experiments .project-writing-text h2 {
   font-size: 15px;
   color: var(--color-heading-soft);
   margin-bottom: 4px;
 }
 
-#unchanged-project .project-writing-text p {
+#unchanged-project .project-writing-text p,
+#experiments .project-writing-text p {
   font-size: 11px;
   line-height: 1.55;
   color: var(--color-copy-soft);
@@ -883,6 +893,10 @@ body.lightbox-open {
 
 .gallery-category-swatch-bw {
   background: #050505;
+}
+
+.gallery-category-swatch-experiments {
+  background: var(--color-surface-soft);
 }
 
 .gallery-category-swatch-color {

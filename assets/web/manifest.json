@@ -1,0 +1,824 @@
+{
+  "Exiperiments/Untitled-Fiber.jpg": {
+    "original_bytes": 1488412,
+    "original_sha256": "94574cd3d40675f3c3921254f757a5be18518a8258ce865bbf66897af422ba7d",
+    "variants": [
+      {
+        "src": "assets/web/Exiperiments/Untitled-Fiber-640.webp",
+        "width": 485,
+        "height": 640,
+        "bytes": 86080
+      },
+      {
+        "src": "assets/web/Exiperiments/Untitled-Fiber-1280.webp",
+        "width": 969,
+        "height": 1280,
+        "bytes": 357106
+      },
+      {
+        "src": "assets/web/Exiperiments/Untitled-Fiber-2400.webp",
+        "width": 1817,
+        "height": 2400,
+        "bytes": 955644
+      }
+    ]
+  },
+  "Logo/Logo1.png": {
+    "original_bytes": 25965,
+    "original_sha256": "e585a6981a215a290191c54cfae264d7fea90ae2e8ebce009edd5039b3bbfc52",
+    "variants": [
+      {
+        "src": "assets/web/Logo/Logo1-336.webp",
+        "width": 336,
+        "height": 260,
+        "bytes": 3552
+      }
+    ]
+  },
+  "Logo/Logo1_dark.png": {
+    "original_bytes": 25963,
+    "original_sha256": "322932eb93648d96bac8ebe4af25731ecdd8c6a370b18018fcc51348c48228ee",
+    "variants": [
+      {
+        "src": "assets/web/Logo/Logo1_dark-336.webp",
+        "width": 336,
+        "height": 260,
+        "bytes": 3496
+      }
+    ]
+  },
+  "Logo/Logo2.png": {
+    "original_bytes": 25891,
+    "original_sha256": "b0b2ccddff9351b7918fd5c80223a4a8b33bda9ee58e644a034ddaeea909f70f",
+    "variants": [
+      {
+        "src": "assets/web/Logo/Logo2-336.webp",
+        "width": 336,
+        "height": 260,
+        "bytes": 3600
+      }
+    ]
+  },
+  "Logo/Logo2_dark.png": {
+    "original_bytes": 25899,
+    "original_sha256": "994134135ebc4b513145c57a83e6bac7282777b71370bd0ac9072368697233bb",
+    "variants": [
+      {
+        "src": "assets/web/Logo/Logo2_dark-336.webp",
+        "width": 336,
+        "height": 260,
+        "bytes": 3534
+      }
+    ]
+  },
+  "Logo/Logo3.png": {
+    "original_bytes": 25728,
+    "original_sha256": "69b4adc48739f37be4258235c044330bac4c4b19573aaf37d99c822d8a880d2e",
+    "variants": [
+      {
+        "src": "assets/web/Logo/Logo3-336.webp",
+        "width": 336,
+        "height": 260,
+        "bytes": 3478
+      }
+    ]
+  },
+  "Logo/Logo3_dark.png": {
+    "original_bytes": 25741,
+    "original_sha256": "58dbaa71a618c4f2a9c3e6b51870d65ed902c2322975fc5bd187a39099d1e5b7",
+    "variants": [
+      {
+        "src": "assets/web/Logo/Logo3_dark-336.webp",
+        "width": 336,
+        "height": 260,
+        "bytes": 3448
+      }
+    ]
+  },
+  "Logo/Logo4.png": {
+    "original_bytes": 25470,
+    "original_sha256": "d5cec17145a9add2b54c4430b926be486713956dcf6a305930767eb649a55988",
+    "variants": [
+      {
+        "src": "assets/web/Logo/Logo4-336.webp",
+        "width": 336,
+        "height": 260,
+        "bytes": 3458
+      }
+    ]
+  },
+  "Logo/Logo4_dark.png": {
+    "original_bytes": 25485,
+    "original_sha256": "6fa4cc02932798dfdf1b617535e4843841ef76551db76c02b6e917a1474a515d",
+    "variants": [
+      {
+        "src": "assets/web/Logo/Logo4_dark-336.webp",
+        "width": 336,
+        "height": 260,
+        "bytes": 3434
+      }
+    ]
+  },
+  "Photoes/(un)Filled Imprint.jpg": {
+    "original_bytes": 13342950,
+    "original_sha256": "47a6ddf039e3e8294e31c57f59eaf972e82c3663cd1dc39852e26bdb23ec59e2",
+    "variants": [
+      {
+        "src": "assets/web/Photoes/(un)Filled Imprint-640.webp",
+        "width": 640,
+        "height": 640,
+        "bytes": 42082
+      },
+      {
+        "src": "assets/web/Photoes/(un)Filled Imprint-1280.webp",
+        "width": 1280,
+        "height": 1280,
+        "bytes": 147658
+      },
+      {
+        "src": "assets/web/Photoes/(un)Filled Imprint-2400.webp",
+        "width": 2400,
+        "height": 2400,
+        "bytes": 588036
+      }
+    ]
+  },
+  "Photoes/1min.jpg": {
+    "original_bytes": 331582,
+    "original_sha256": "750ff604dbad45093dc19b42c4dc04ea613b596a95036016f8c9cb5ba45df8ea",
+    "variants": [
+      {
+        "src": "assets/web/Photoes/1min-640.webp",
+        "width": 640,
+        "height": 640,
+        "bytes": 17196
+      },
+      {
+        "src": "assets/web/Photoes/1min-1150.webp",
+        "width": 1150,
+        "height": 1150,
+        "bytes": 37676
+      }
+    ]
+  },
+  "Photoes/4.png": {
+    "original_bytes": 389443,
+    "original_sha256": "3283ecdb59e1f02498df6e80020633211aec2f9a4fc522c582dbab4b1be563ab",
+    "variants": [
+      {
+        "src": "assets/web/Photoes/4-640.webp",
+        "width": 640,
+        "height": 260,
+        "bytes": 2680
+      },
+      {
+        "src": "assets/web/Photoes/4-1280.webp",
+        "width": 1280,
+        "height": 520,
+        "bytes": 4380
+      },
+      {
+        "src": "assets/web/Photoes/4-2088.webp",
+        "width": 2088,
+        "height": 848,
+        "bytes": 7198
+      }
+    ]
+  },
+  "Photoes/Collapse.png": {
+    "original_bytes": 25853632,
+    "original_sha256": "2df6c50d6847589f64a35513ddfe9d98304bb9ae22124416b3c9a97aca9dde38",
+    "variants": [
+      {
+        "src": "assets/web/Photoes/Collapse-640.webp",
+        "width": 640,
+        "height": 640,
+        "bytes": 40330
+      },
+      {
+        "src": "assets/web/Photoes/Collapse-1280.webp",
+        "width": 1280,
+        "height": 1280,
+        "bytes": 151832
+      },
+      {
+        "src": "assets/web/Photoes/Collapse-2400.webp",
+        "width": 2400,
+        "height": 2400,
+        "bytes": 761488
+      }
+    ]
+  },
+  "Photoes/Discarded Fragments.png": {
+    "original_bytes": 30963351,
+    "original_sha256": "86808c11f5034c9349006d01e958552fde20974776d8702bb5af798aeddac192",
+    "variants": [
+      {
+        "src": "assets/web/Photoes/Discarded Fragments-640.webp",
+        "width": 640,
+        "height": 640,
+        "bytes": 55042
+      },
+      {
+        "src": "assets/web/Photoes/Discarded Fragments-1280.webp",
+        "width": 1280,
+        "height": 1280,
+        "bytes": 374252
+      },
+      {
+        "src": "assets/web/Photoes/Discarded Fragments-2400.webp",
+        "width": 2400,
+        "height": 2400,
+        "bytes": 1841570
+      }
+    ]
+  },
+  "Photoes/Glliter.jpg": {
+    "original_bytes": 197689,
+    "original_sha256": "f6f8e7d163832d3a9a4d702e42e96aad21be45ab7f834827f2f2ce4c0e75db13",
+    "variants": [
+      {
+        "src": "assets/web/Photoes/Glliter-640.webp",
+        "width": 640,
+        "height": 320,
+        "bytes": 11222
+      },
+      {
+        "src": "assets/web/Photoes/Glliter-1280.webp",
+        "width": 1280,
+        "height": 640,
+        "bytes": 24832
+      },
+      {
+        "src": "assets/web/Photoes/Glliter-1320.webp",
+        "width": 1320,
+        "height": 660,
+        "bytes": 26050
+      }
+    ]
+  },
+  "Photoes/Individual Photographic Works/10墙.png": {
+    "original_bytes": 19161251,
+    "original_sha256": "5097bd89d7c75e3e29871b8b4accfd495137f2f63f464194b10e1748b6943880",
+    "variants": [
+      {
+        "src": "assets/web/Photoes/Individual Photographic Works/10墙-640.webp",
+        "width": 457,
+        "height": 640,
+        "bytes": 59334
+      },
+      {
+        "src": "assets/web/Photoes/Individual Photographic Works/10墙-1280.webp",
+        "width": 914,
+        "height": 1280,
+        "bytes": 268694
+      },
+      {
+        "src": "assets/web/Photoes/Individual Photographic Works/10墙-2400.webp",
+        "width": 1714,
+        "height": 2400,
+        "bytes": 892912
+      }
+    ]
+  },
+  "Photoes/Individual Photographic Works/6窗户.png": {
+    "original_bytes": 23386457,
+    "original_sha256": "2a3f1bf389265ac86acd6d95bcf56b12f25b134232f920dd9bfd0366b7dc04fb",
+    "variants": [
+      {
+        "src": "assets/web/Photoes/Individual Photographic Works/6窗户-640.webp",
+        "width": 640,
+        "height": 457,
+        "bytes": 36440
+      },
+      {
+        "src": "assets/web/Photoes/Individual Photographic Works/6窗户-1280.webp",
+        "width": 1280,
+        "height": 914,
+        "bytes": 112758
+      },
+      {
+        "src": "assets/web/Photoes/Individual Photographic Works/6窗户-2400.webp",
+        "width": 2400,
+        "height": 1714,
+        "bytes": 392998
+      }
+    ]
+  },
+  "Photoes/Individual Photographic Works/B0000248.jpg": {
+    "original_bytes": 3471817,
+    "original_sha256": "ce92ddbd8c1b1217e465777db0fc751164ba289dc6eb5cf969c935223b2e6f85",
+    "variants": [
+      {
+        "src": "assets/web/Photoes/Individual Photographic Works/B0000248-640.webp",
+        "width": 640,
+        "height": 640,
+        "bytes": 53454
+      },
+      {
+        "src": "assets/web/Photoes/Individual Photographic Works/B0000248-1280.webp",
+        "width": 1280,
+        "height": 1280,
+        "bytes": 222898
+      },
+      {
+        "src": "assets/web/Photoes/Individual Photographic Works/B0000248-2400.webp",
+        "width": 2400,
+        "height": 2400,
+        "bytes": 891998
+      }
+    ]
+  },
+  "Photoes/Individual Photographic Works/B0001867.jpg": {
+    "original_bytes": 1980915,
+    "original_sha256": "b25c15c685b3eaf73f57c820651be371cef0e8eb88496bb7ec3bb30603416cde",
+    "variants": [
+      {
+        "src": "assets/web/Photoes/Individual Photographic Works/B0001867-640.webp",
+        "width": 640,
+        "height": 480,
+        "bytes": 63462
+      },
+      {
+        "src": "assets/web/Photoes/Individual Photographic Works/B0001867-1280.webp",
+        "width": 1280,
+        "height": 960,
+        "bytes": 203358
+      },
+      {
+        "src": "assets/web/Photoes/Individual Photographic Works/B0001867-2400.webp",
+        "width": 2400,
+        "height": 1800,
+        "bytes": 490440
+      }
+    ]
+  },
+  "Photoes/Individual Photographic Works/B0001885.jpg": {
+    "original_bytes": 1776605,
+    "original_sha256": "e733ca3b9ccd57dde3ad0ee4ea2a06c48e759b74f64c0e62c08494a5c37b46d6",
+    "variants": [
+      {
+        "src": "assets/web/Photoes/Individual Photographic Works/B0001885-640.webp",
+        "width": 640,
+        "height": 480,
+        "bytes": 35966
+      },
+      {
+        "src": "assets/web/Photoes/Individual Photographic Works/B0001885-1280.webp",
+        "width": 1280,
+        "height": 960,
+        "bytes": 89668
+      },
+      {
+        "src": "assets/web/Photoes/Individual Photographic Works/B0001885-2400.webp",
+        "width": 2400,
+        "height": 1800,
+        "bytes": 210094
+      }
+    ]
+  },
+  "Photoes/Individual Photographic Works/R0000193.png": {
+    "original_bytes": 23332817,
+    "original_sha256": "14fb72035d838469da229af158b89d83c480b3407876129f7f8c1b1f0f9cc8c9",
+    "variants": [
+      {
+        "src": "assets/web/Photoes/Individual Photographic Works/R0000193-640.webp",
+        "width": 640,
+        "height": 457,
+        "bytes": 45470
+      },
+      {
+        "src": "assets/web/Photoes/Individual Photographic Works/R0000193-1280.webp",
+        "width": 1280,
+        "height": 914,
+        "bytes": 152958
+      },
+      {
+        "src": "assets/web/Photoes/Individual Photographic Works/R0000193-2400.webp",
+        "width": 2400,
+        "height": 1714,
+        "bytes": 478654
+      }
+    ]
+  },
+  "Photoes/Individual Photographic Works/theatre.jpg": {
+    "original_bytes": 1708265,
+    "original_sha256": "772fa3cf61b4c00be55bf535bb969821bc20761c8c8bcab5dc6ea2fe9e2d523e",
+    "variants": [
+      {
+        "src": "assets/web/Photoes/Individual Photographic Works/theatre-640.webp",
+        "width": 640,
+        "height": 279,
+        "bytes": 41032
+      },
+      {
+        "src": "assets/web/Photoes/Individual Photographic Works/theatre-1280.webp",
+        "width": 1280,
+        "height": 558,
+        "bytes": 114910
+      },
+      {
+        "src": "assets/web/Photoes/Individual Photographic Works/theatre-2400.webp",
+        "width": 2400,
+        "height": 1046,
+        "bytes": 338662
+      }
+    ]
+  },
+  "Photoes/Individual Photographic Works/人在做天在看.jpg": {
+    "original_bytes": 3796942,
+    "original_sha256": "41114df2e1cbaf3c97b8af186a90b48a45210634fcdeaf21db826098400c4bfd",
+    "variants": [
+      {
+        "src": "assets/web/Photoes/Individual Photographic Works/人在做天在看-640.webp",
+        "width": 640,
+        "height": 640,
+        "bytes": 117270
+      },
+      {
+        "src": "assets/web/Photoes/Individual Photographic Works/人在做天在看-1280.webp",
+        "width": 1280,
+        "height": 1280,
+        "bytes": 405394
+      },
+      {
+        "src": "assets/web/Photoes/Individual Photographic Works/人在做天在看-2400.webp",
+        "width": 2400,
+        "height": 2400,
+        "bytes": 969220
+      }
+    ]
+  },
+  "Photoes/Individual Photographic Works/向前.jpg": {
+    "original_bytes": 4060638,
+    "original_sha256": "8cea9e4b7ae4150811756b7ae05d2960f91a132cf05fac94282a7cdb2e25adb9",
+    "variants": [
+      {
+        "src": "assets/web/Photoes/Individual Photographic Works/向前-640.webp",
+        "width": 640,
+        "height": 640,
+        "bytes": 90046
+      },
+      {
+        "src": "assets/web/Photoes/Individual Photographic Works/向前-1280.webp",
+        "width": 1280,
+        "height": 1280,
+        "bytes": 275656
+      },
+      {
+        "src": "assets/web/Photoes/Individual Photographic Works/向前-2400.webp",
+        "width": 2400,
+        "height": 2400,
+        "bytes": 884866
+      }
+    ]
+  },
+  "Photoes/Individual Photographic Works/囧.jpg": {
+    "original_bytes": 6629440,
+    "original_sha256": "a18997b32af56d9fe5f94b16108af2e9628abb2dade97ebe3918f124cb9078dc",
+    "variants": [
+      {
+        "src": "assets/web/Photoes/Individual Photographic Works/囧-640.webp",
+        "width": 640,
+        "height": 640,
+        "bytes": 86652
+      },
+      {
+        "src": "assets/web/Photoes/Individual Photographic Works/囧-1280.webp",
+        "width": 1280,
+        "height": 1280,
+        "bytes": 456178
+      },
+      {
+        "src": "assets/web/Photoes/Individual Photographic Works/囧-2400.webp",
+        "width": 2400,
+        "height": 2400,
+        "bytes": 2151366
+      }
+    ]
+  },
+  "Photoes/Individual Photographic Works/斗争.jpg": {
+    "original_bytes": 4568879,
+    "original_sha256": "082fdd39a150e0ca5bc72d0fd13bcadd25738f87c144adf8466717ba45918153",
+    "variants": [
+      {
+        "src": "assets/web/Photoes/Individual Photographic Works/斗争-640.webp",
+        "width": 640,
+        "height": 640,
+        "bytes": 120934
+      },
+      {
+        "src": "assets/web/Photoes/Individual Photographic Works/斗争-1280.webp",
+        "width": 1280,
+        "height": 1280,
+        "bytes": 478374
+      },
+      {
+        "src": "assets/web/Photoes/Individual Photographic Works/斗争-2400.webp",
+        "width": 2400,
+        "height": 2400,
+        "bytes": 1436168
+      }
+    ]
+  },
+  "Photoes/Individual Photographic Works/车轱辘碾过如山倒.jpg": {
+    "original_bytes": 4221467,
+    "original_sha256": "d54f7cd387efcff21e5ab9e9fb2099715f3b71411b6c22eef4746d7a3cfda7fb",
+    "variants": [
+      {
+        "src": "assets/web/Photoes/Individual Photographic Works/车轱辘碾过如山倒-640.webp",
+        "width": 640,
+        "height": 640,
+        "bytes": 91590
+      },
+      {
+        "src": "assets/web/Photoes/Individual Photographic Works/车轱辘碾过如山倒-1280.webp",
+        "width": 1280,
+        "height": 1280,
+        "bytes": 293982
+      },
+      {
+        "src": "assets/web/Photoes/Individual Photographic Works/车轱辘碾过如山倒-2400.webp",
+        "width": 2400,
+        "height": 2400,
+        "bytes": 882260
+      }
+    ]
+  },
+  "Photoes/Individual Photographic Works/集体意识太难看.jpg": {
+    "original_bytes": 4096949,
+    "original_sha256": "6f812bbb8162acd94ade9beb07dd94f0dad5ee803f15c38a0f8bd1258b17306c",
+    "variants": [
+      {
+        "src": "assets/web/Photoes/Individual Photographic Works/集体意识太难看-640.webp",
+        "width": 640,
+        "height": 640,
+        "bytes": 115530
+      },
+      {
+        "src": "assets/web/Photoes/Individual Photographic Works/集体意识太难看-1280.webp",
+        "width": 1280,
+        "height": 1280,
+        "bytes": 280692
+      },
+      {
+        "src": "assets/web/Photoes/Individual Photographic Works/集体意识太难看-2400.webp",
+        "width": 2400,
+        "height": 2400,
+        "bytes": 1034006
+      }
+    ]
+  },
+  "Photoes/InsideOut.png": {
+    "original_bytes": 18438380,
+    "original_sha256": "c11b18f47721da2f7582ee91daaaebc86a5f32847440910fb846144f49749066",
+    "variants": [
+      {
+        "src": "assets/web/Photoes/InsideOut-640.webp",
+        "width": 640,
+        "height": 640,
+        "bytes": 38756
+      },
+      {
+        "src": "assets/web/Photoes/InsideOut-1280.webp",
+        "width": 1280,
+        "height": 1280,
+        "bytes": 126526
+      },
+      {
+        "src": "assets/web/Photoes/InsideOut-2400.webp",
+        "width": 2400,
+        "height": 2400,
+        "bytes": 470598
+      }
+    ]
+  },
+  "Photoes/Portrait.jpg": {
+    "original_bytes": 28284,
+    "original_sha256": "78ac245083053631c25a564fdd43d9b159ebc9f10353deff4ee18b5c060d83e4",
+    "variants": [
+      {
+        "src": "assets/web/Photoes/Portrait-326.webp",
+        "width": 300,
+        "height": 326,
+        "bytes": 8046
+      }
+    ]
+  },
+  "Photoes/TheRoom.png": {
+    "original_bytes": 24132382,
+    "original_sha256": "30f87bdaf25e5d1436a62b7d3b42247917d9651587fb469d9dcc27e4af440594",
+    "variants": [
+      {
+        "src": "assets/web/Photoes/TheRoom-640.webp",
+        "width": 640,
+        "height": 640,
+        "bytes": 45182
+      },
+      {
+        "src": "assets/web/Photoes/TheRoom-1280.webp",
+        "width": 1280,
+        "height": 1280,
+        "bytes": 134076
+      },
+      {
+        "src": "assets/web/Photoes/TheRoom-2400.webp",
+        "width": 2400,
+        "height": 2400,
+        "bytes": 714138
+      }
+    ]
+  },
+  "Photoes/rupture.jpg": {
+    "original_bytes": 9841957,
+    "original_sha256": "7ddc6e377b393b41cedfc173397170b2587c9f4e8de93d881d1f99becdc3c169",
+    "variants": [
+      {
+        "src": "assets/web/Photoes/rupture-640.webp",
+        "width": 640,
+        "height": 640,
+        "bytes": 20054
+      },
+      {
+        "src": "assets/web/Photoes/rupture-1280.webp",
+        "width": 1280,
+        "height": 1280,
+        "bytes": 48496
+      },
+      {
+        "src": "assets/web/Photoes/rupture-2400.webp",
+        "width": 2400,
+        "height": 2400,
+        "bytes": 191782
+      }
+    ]
+  },
+  "Quadrangular/page_10_clean.png": {
+    "original_bytes": 293846,
+    "original_sha256": "25b71d01aba079fd3087cb2c12e6f30c153ea69a4a0185c8ef6fb55b5c530aea",
+    "variants": [
+      {
+        "src": "assets/web/Quadrangular/page_10_clean-594.webp",
+        "width": 384,
+        "height": 594,
+        "bytes": 159302
+      }
+    ]
+  },
+  "Quadrangular/page_11_clean.png": {
+    "original_bytes": 143575,
+    "original_sha256": "05b685b1862f47d1fa2b110b79851d780458819c9ec44bf59a1682623c75054b",
+    "variants": [
+      {
+        "src": "assets/web/Quadrangular/page_11_clean-425.webp",
+        "width": 275,
+        "height": 425,
+        "bytes": 107880
+      }
+    ]
+  },
+  "Quadrangular/page_12_clean.png": {
+    "original_bytes": 2104,
+    "original_sha256": "96ce442e485ac97840831b4ae4e72f702ec0baa47cecb96852b88266d31ed52a",
+    "variants": [
+      {
+        "src": "assets/web/Quadrangular/page_12_clean-565.webp",
+        "width": 366,
+        "height": 565,
+        "bytes": 834
+      }
+    ]
+  },
+  "Quadrangular/page_1_clean.png": {
+    "original_bytes": 4282,
+    "original_sha256": "6e22cdfb631082c8df236fb3cae3b88ef4f0519981fe554cb5366f2ee16dc0a5",
+    "variants": [
+      {
+        "src": "assets/web/Quadrangular/page_1_clean-565.webp",
+        "width": 366,
+        "height": 565,
+        "bytes": 1758
+      }
+    ]
+  },
+  "Quadrangular/page_2_clean.png": {
+    "original_bytes": 3945,
+    "original_sha256": "50901711f54e12ef4afd329eb1be712fcfb6ea30c4ee20f3ff267d61410efc1f",
+    "variants": [
+      {
+        "src": "assets/web/Quadrangular/page_2_clean-594.webp",
+        "width": 384,
+        "height": 594,
+        "bytes": 1908
+      }
+    ]
+  },
+  "Quadrangular/page_3_clean.png": {
+    "original_bytes": 124072,
+    "original_sha256": "d8b6ad82600a76e26461f3baff0d29da1abdb09c5330b21441b9922535fe3715",
+    "variants": [
+      {
+        "src": "assets/web/Quadrangular/page_3_clean-594.webp",
+        "width": 384,
+        "height": 594,
+        "bytes": 84506
+      }
+    ]
+  },
+  "Quadrangular/page_4_clean.png": {
+    "original_bytes": 223342,
+    "original_sha256": "8dba6aef50eaca7d38389b4539dd951dfa20f4776dd3adbdfccf54b9001c93c8",
+    "variants": [
+      {
+        "src": "assets/web/Quadrangular/page_4_clean-594.webp",
+        "width": 384,
+        "height": 594,
+        "bytes": 120674
+      }
+    ]
+  },
+  "Quadrangular/page_5_clean.png": {
+    "original_bytes": 256462,
+    "original_sha256": "1d04f94ab925e2e8d0cabe1bcacd49c5e9a05292bea7921056297c14efa8e90e",
+    "variants": [
+      {
+        "src": "assets/web/Quadrangular/page_5_clean-594.webp",
+        "width": 384,
+        "height": 594,
+        "bytes": 126448
+      }
+    ]
+  },
+  "Quadrangular/page_6_clean.png": {
+    "original_bytes": 178905,
+    "original_sha256": "82393f6dd5d3b142568b21b35cf54a39805fafbca016aa67e95f62d325c1fde6",
+    "variants": [
+      {
+        "src": "assets/web/Quadrangular/page_6_clean-596.webp",
+        "width": 385,
+        "height": 596,
+        "bytes": 96340
+      }
+    ]
+  },
+  "Quadrangular/page_7_clean.png": {
+    "original_bytes": 177078,
+    "original_sha256": "dfd7008ad59a30517c3a1848e5f8ed2c19c07824907c25e452e14cd0d70f28dd",
+    "variants": [
+      {
+        "src": "assets/web/Quadrangular/page_7_clean-596.webp",
+        "width": 385,
+        "height": 596,
+        "bytes": 93762
+      }
+    ]
+  },
+  "Quadrangular/page_8_clean.png": {
+    "original_bytes": 101268,
+    "original_sha256": "4c36fd1b7af4a2a972e099df9607bd8f6ae4bb5f030c79a1eb7360bbb2d32d25",
+    "variants": [
+      {
+        "src": "assets/web/Quadrangular/page_8_clean-594.webp",
+        "width": 384,
+        "height": 594,
+        "bytes": 55988
+      }
+    ]
+  },
+  "Quadrangular/page_9_clean.png": {
+    "original_bytes": 124822,
+    "original_sha256": "90a686c4ab26e95760097252991eb907148fe7725fafd30276740a6f54d650d2",
+    "variants": [
+      {
+        "src": "assets/web/Quadrangular/page_9_clean-594.webp",
+        "width": 384,
+        "height": 594,
+        "bytes": 68026
+      }
+    ]
+  },
+  "Video/1Minute.gif": {
+    "original_bytes": 4963239,
+    "original_sha256": "f0bbae2354d4b0f49336c110054c56b70916073b29d5fce421a7f90286305230",
+    "variants": [
+      {
+        "src": "assets/web/Video/1Minute.webp",
+        "width": 420,
+        "height": 236,
+        "bytes": 212300
+      }
+    ]
+  },
+  "Video/Glitter.gif": {
+    "original_bytes": 28731872,
+    "original_sha256": "42a7579bc42fc89449e5e1e937f92baa3cc33ac0ecd5f65a4af9f2cbf1eeb7ca",
+    "variants": [
+      {
+        "src": "assets/web/Video/Glitter.webp",
+        "width": 540,
+        "height": 304,
+        "bytes": 5095312
+      }
+    ]
+  }
+}
