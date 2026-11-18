@@ -185,6 +185,54 @@
       }
     ]
   },
+  "Photoes/COLOR_6.jpg": {
+    "original_bytes": 5469057,
+    "original_sha256": "511c674d58c66a58784cb45e45539d4a877c6746b84ba7db0c28ec8f17a9b090",
+    "variants": [
+      {
+        "src": "assets/web/Photoes/COLOR_6-640.webp",
+        "width": 395,
+        "height": 640,
+        "bytes": 20586
+      },
+      {
+        "src": "assets/web/Photoes/COLOR_6-1280.webp",
+        "width": 791,
+        "height": 1280,
+        "bytes": 48884
+      },
+      {
+        "src": "assets/web/Photoes/COLOR_6-2400.webp",
+        "width": 1483,
+        "height": 2400,
+        "bytes": 103406
+      }
+    ]
+  },
+  "Photoes/COLOR_7.jpg": {
+    "original_bytes": 11805218,
+    "original_sha256": "f3c2bf74b1f1e8253b7ac87b83598cc5e9b0f40c1a6e814757e2fb9c9105a9ff",
+    "variants": [
+      {
+        "src": "assets/web/Photoes/COLOR_7-640.webp",
+        "width": 625,
+        "height": 640,
+        "bytes": 124880
+      },
+      {
+        "src": "assets/web/Photoes/COLOR_7-1280.webp",
+        "width": 1249,
+        "height": 1280,
+        "bytes": 368890
+      },
+      {
+        "src": "assets/web/Photoes/COLOR_7-2400.webp",
+        "width": 2343,
+        "height": 2400,
+        "bytes": 933390
+      }
+    ]
+  },
   "Photoes/Collapse.png": {
     "original_bytes": 25853632,
     "original_sha256": "2df6c50d6847589f64a35513ddfe9d98304bb9ae22124416b3c9a97aca9dde38",
@@ -206,30 +254,6 @@
         "width": 2400,
         "height": 2400,
         "bytes": 761488
-      }
-    ]
-  },
-  "Photoes/Color.jpg": {
-    "original_bytes": 5469057,
-    "original_sha256": "511c674d58c66a58784cb45e45539d4a877c6746b84ba7db0c28ec8f17a9b090",
-    "variants": [
-      {
-        "src": "assets/web/Photoes/Color-640.webp",
-        "width": 395,
-        "height": 640,
-        "bytes": 20586
-      },
-      {
-        "src": "assets/web/Photoes/Color-1280.webp",
-        "width": 791,
-        "height": 1280,
-        "bytes": 48884
-      },
-      {
-        "src": "assets/web/Photoes/Color-2400.webp",
-        "width": 1483,
-        "height": 2400,
-        "bytes": 103406
       }
     ]
   },
@@ -281,315 +305,315 @@
       }
     ]
   },
-  "Photoes/Individual Photographic Works/10墙.png": {
-    "original_bytes": 19161251,
-    "original_sha256": "5097bd89d7c75e3e29871b8b4accfd495137f2f63f464194b10e1748b6943880",
-    "variants": [
-      {
-        "src": "assets/web/Photoes/Individual Photographic Works/10墙-640.webp",
-        "width": 457,
-        "height": 640,
-        "bytes": 59334
-      },
-      {
-        "src": "assets/web/Photoes/Individual Photographic Works/10墙-1280.webp",
-        "width": 914,
-        "height": 1280,
-        "bytes": 268694
-      },
-      {
-        "src": "assets/web/Photoes/Individual Photographic Works/10墙-2400.webp",
-        "width": 1714,
-        "height": 2400,
-        "bytes": 892912
-      }
-    ]
-  },
-  "Photoes/Individual Photographic Works/6窗户.png": {
-    "original_bytes": 23386457,
-    "original_sha256": "2a3f1bf389265ac86acd6d95bcf56b12f25b134232f920dd9bfd0366b7dc04fb",
-    "variants": [
-      {
-        "src": "assets/web/Photoes/Individual Photographic Works/6窗户-640.webp",
-        "width": 640,
-        "height": 457,
-        "bytes": 36440
-      },
-      {
-        "src": "assets/web/Photoes/Individual Photographic Works/6窗户-1280.webp",
-        "width": 1280,
-        "height": 914,
-        "bytes": 112758
-      },
-      {
-        "src": "assets/web/Photoes/Individual Photographic Works/6窗户-2400.webp",
-        "width": 2400,
-        "height": 1714,
-        "bytes": 392998
-      }
-    ]
-  },
-  "Photoes/Individual Photographic Works/B0000248.jpg": {
-    "original_bytes": 3471817,
-    "original_sha256": "ce92ddbd8c1b1217e465777db0fc751164ba289dc6eb5cf969c935223b2e6f85",
-    "variants": [
-      {
-        "src": "assets/web/Photoes/Individual Photographic Works/B0000248-640.webp",
-        "width": 640,
-        "height": 640,
-        "bytes": 53454
-      },
-      {
-        "src": "assets/web/Photoes/Individual Photographic Works/B0000248-1280.webp",
-        "width": 1280,
-        "height": 1280,
-        "bytes": 222898
-      },
-      {
-        "src": "assets/web/Photoes/Individual Photographic Works/B0000248-2400.webp",
-        "width": 2400,
-        "height": 2400,
-        "bytes": 891998
-      }
-    ]
-  },
-  "Photoes/Individual Photographic Works/B0001867.jpg": {
-    "original_bytes": 1980915,
-    "original_sha256": "b25c15c685b3eaf73f57c820651be371cef0e8eb88496bb7ec3bb30603416cde",
-    "variants": [
-      {
-        "src": "assets/web/Photoes/Individual Photographic Works/B0001867-640.webp",
-        "width": 640,
-        "height": 480,
-        "bytes": 63462
-      },
-      {
-        "src": "assets/web/Photoes/Individual Photographic Works/B0001867-1280.webp",
-        "width": 1280,
-        "height": 960,
-        "bytes": 203358
-      },
-      {
-        "src": "assets/web/Photoes/Individual Photographic Works/B0001867-2400.webp",
-        "width": 2400,
-        "height": 1800,
-        "bytes": 490440
-      }
-    ]
-  },
-  "Photoes/Individual Photographic Works/B0001885.jpg": {
-    "original_bytes": 1776605,
-    "original_sha256": "e733ca3b9ccd57dde3ad0ee4ea2a06c48e759b74f64c0e62c08494a5c37b46d6",
-    "variants": [
-      {
-        "src": "assets/web/Photoes/Individual Photographic Works/B0001885-640.webp",
-        "width": 640,
-        "height": 480,
-        "bytes": 35966
-      },
-      {
-        "src": "assets/web/Photoes/Individual Photographic Works/B0001885-1280.webp",
-        "width": 1280,
-        "height": 960,
-        "bytes": 89668
-      },
-      {
-        "src": "assets/web/Photoes/Individual Photographic Works/B0001885-2400.webp",
-        "width": 2400,
-        "height": 1800,
-        "bytes": 210094
-      }
-    ]
-  },
-  "Photoes/Individual Photographic Works/R0000193.png": {
-    "original_bytes": 23332817,
-    "original_sha256": "14fb72035d838469da229af158b89d83c480b3407876129f7f8c1b1f0f9cc8c9",
-    "variants": [
-      {
-        "src": "assets/web/Photoes/Individual Photographic Works/R0000193-640.webp",
-        "width": 640,
-        "height": 457,
-        "bytes": 45470
-      },
-      {
-        "src": "assets/web/Photoes/Individual Photographic Works/R0000193-1280.webp",
-        "width": 1280,
-        "height": 914,
-        "bytes": 152958
-      },
-      {
-        "src": "assets/web/Photoes/Individual Photographic Works/R0000193-2400.webp",
-        "width": 2400,
-        "height": 1714,
-        "bytes": 478654
-      }
-    ]
-  },
-  "Photoes/Individual Photographic Works/theatre.jpg": {
-    "original_bytes": 1708265,
-    "original_sha256": "772fa3cf61b4c00be55bf535bb969821bc20761c8c8bcab5dc6ea2fe9e2d523e",
-    "variants": [
-      {
-        "src": "assets/web/Photoes/Individual Photographic Works/theatre-640.webp",
-        "width": 640,
-        "height": 279,
-        "bytes": 41032
-      },
-      {
-        "src": "assets/web/Photoes/Individual Photographic Works/theatre-1280.webp",
-        "width": 1280,
-        "height": 558,
-        "bytes": 114910
-      },
-      {
-        "src": "assets/web/Photoes/Individual Photographic Works/theatre-2400.webp",
-        "width": 2400,
-        "height": 1046,
-        "bytes": 338662
-      }
-    ]
-  },
-  "Photoes/Individual Photographic Works/人在做天在看.jpg": {
-    "original_bytes": 3796942,
-    "original_sha256": "41114df2e1cbaf3c97b8af186a90b48a45210634fcdeaf21db826098400c4bfd",
-    "variants": [
-      {
-        "src": "assets/web/Photoes/Individual Photographic Works/人在做天在看-640.webp",
-        "width": 640,
-        "height": 640,
-        "bytes": 117270
-      },
-      {
-        "src": "assets/web/Photoes/Individual Photographic Works/人在做天在看-1280.webp",
-        "width": 1280,
-        "height": 1280,
-        "bytes": 405394
-      },
-      {
-        "src": "assets/web/Photoes/Individual Photographic Works/人在做天在看-2400.webp",
-        "width": 2400,
-        "height": 2400,
-        "bytes": 969220
-      }
-    ]
-  },
-  "Photoes/Individual Photographic Works/向前.jpg": {
-    "original_bytes": 4060638,
-    "original_sha256": "8cea9e4b7ae4150811756b7ae05d2960f91a132cf05fac94282a7cdb2e25adb9",
-    "variants": [
-      {
-        "src": "assets/web/Photoes/Individual Photographic Works/向前-640.webp",
-        "width": 640,
-        "height": 640,
-        "bytes": 90046
-      },
-      {
-        "src": "assets/web/Photoes/Individual Photographic Works/向前-1280.webp",
-        "width": 1280,
-        "height": 1280,
-        "bytes": 275656
-      },
-      {
-        "src": "assets/web/Photoes/Individual Photographic Works/向前-2400.webp",
-        "width": 2400,
-        "height": 2400,
-        "bytes": 884866
-      }
-    ]
-  },
-  "Photoes/Individual Photographic Works/囧.jpg": {
-    "original_bytes": 6629440,
-    "original_sha256": "a18997b32af56d9fe5f94b16108af2e9628abb2dade97ebe3918f124cb9078dc",
-    "variants": [
-      {
-        "src": "assets/web/Photoes/Individual Photographic Works/囧-640.webp",
-        "width": 640,
-        "height": 640,
-        "bytes": 86652
-      },
-      {
-        "src": "assets/web/Photoes/Individual Photographic Works/囧-1280.webp",
-        "width": 1280,
-        "height": 1280,
-        "bytes": 456178
-      },
-      {
-        "src": "assets/web/Photoes/Individual Photographic Works/囧-2400.webp",
-        "width": 2400,
-        "height": 2400,
-        "bytes": 2151366
-      }
-    ]
-  },
-  "Photoes/Individual Photographic Works/斗争.jpg": {
-    "original_bytes": 4568879,
-    "original_sha256": "082fdd39a150e0ca5bc72d0fd13bcadd25738f87c144adf8466717ba45918153",
-    "variants": [
-      {
-        "src": "assets/web/Photoes/Individual Photographic Works/斗争-640.webp",
-        "width": 640,
-        "height": 640,
-        "bytes": 120934
-      },
-      {
-        "src": "assets/web/Photoes/Individual Photographic Works/斗争-1280.webp",
-        "width": 1280,
-        "height": 1280,
-        "bytes": 478374
-      },
-      {
-        "src": "assets/web/Photoes/Individual Photographic Works/斗争-2400.webp",
-        "width": 2400,
-        "height": 2400,
-        "bytes": 1436168
-      }
-    ]
-  },
-  "Photoes/Individual Photographic Works/车轱辘碾过如山倒.jpg": {
+  "Photoes/Individual Photographic Works/B&W_1.jpg": {
     "original_bytes": 4221467,
     "original_sha256": "d54f7cd387efcff21e5ab9e9fb2099715f3b71411b6c22eef4746d7a3cfda7fb",
     "variants": [
       {
-        "src": "assets/web/Photoes/Individual Photographic Works/车轱辘碾过如山倒-640.webp",
+        "src": "assets/web/Photoes/Individual Photographic Works/B&W_1-640.webp",
         "width": 640,
         "height": 640,
         "bytes": 91590
       },
       {
-        "src": "assets/web/Photoes/Individual Photographic Works/车轱辘碾过如山倒-1280.webp",
+        "src": "assets/web/Photoes/Individual Photographic Works/B&W_1-1280.webp",
         "width": 1280,
         "height": 1280,
         "bytes": 293982
       },
       {
-        "src": "assets/web/Photoes/Individual Photographic Works/车轱辘碾过如山倒-2400.webp",
+        "src": "assets/web/Photoes/Individual Photographic Works/B&W_1-2400.webp",
         "width": 2400,
         "height": 2400,
         "bytes": 882260
       }
     ]
   },
-  "Photoes/Individual Photographic Works/集体意识太难看.jpg": {
+  "Photoes/Individual Photographic Works/B&W_2.jpg": {
+    "original_bytes": 4060638,
+    "original_sha256": "8cea9e4b7ae4150811756b7ae05d2960f91a132cf05fac94282a7cdb2e25adb9",
+    "variants": [
+      {
+        "src": "assets/web/Photoes/Individual Photographic Works/B&W_2-640.webp",
+        "width": 640,
+        "height": 640,
+        "bytes": 90046
+      },
+      {
+        "src": "assets/web/Photoes/Individual Photographic Works/B&W_2-1280.webp",
+        "width": 1280,
+        "height": 1280,
+        "bytes": 275656
+      },
+      {
+        "src": "assets/web/Photoes/Individual Photographic Works/B&W_2-2400.webp",
+        "width": 2400,
+        "height": 2400,
+        "bytes": 884866
+      }
+    ]
+  },
+  "Photoes/Individual Photographic Works/B&W_3.jpg": {
+    "original_bytes": 3471817,
+    "original_sha256": "ce92ddbd8c1b1217e465777db0fc751164ba289dc6eb5cf969c935223b2e6f85",
+    "variants": [
+      {
+        "src": "assets/web/Photoes/Individual Photographic Works/B&W_3-640.webp",
+        "width": 640,
+        "height": 640,
+        "bytes": 53454
+      },
+      {
+        "src": "assets/web/Photoes/Individual Photographic Works/B&W_3-1280.webp",
+        "width": 1280,
+        "height": 1280,
+        "bytes": 222898
+      },
+      {
+        "src": "assets/web/Photoes/Individual Photographic Works/B&W_3-2400.webp",
+        "width": 2400,
+        "height": 2400,
+        "bytes": 891998
+      }
+    ]
+  },
+  "Photoes/Individual Photographic Works/B&W_4.jpg": {
+    "original_bytes": 4568879,
+    "original_sha256": "082fdd39a150e0ca5bc72d0fd13bcadd25738f87c144adf8466717ba45918153",
+    "variants": [
+      {
+        "src": "assets/web/Photoes/Individual Photographic Works/B&W_4-640.webp",
+        "width": 640,
+        "height": 640,
+        "bytes": 120934
+      },
+      {
+        "src": "assets/web/Photoes/Individual Photographic Works/B&W_4-1280.webp",
+        "width": 1280,
+        "height": 1280,
+        "bytes": 478374
+      },
+      {
+        "src": "assets/web/Photoes/Individual Photographic Works/B&W_4-2400.webp",
+        "width": 2400,
+        "height": 2400,
+        "bytes": 1436168
+      }
+    ]
+  },
+  "Photoes/Individual Photographic Works/B&W_5.jpg": {
+    "original_bytes": 3796942,
+    "original_sha256": "41114df2e1cbaf3c97b8af186a90b48a45210634fcdeaf21db826098400c4bfd",
+    "variants": [
+      {
+        "src": "assets/web/Photoes/Individual Photographic Works/B&W_5-640.webp",
+        "width": 640,
+        "height": 640,
+        "bytes": 117270
+      },
+      {
+        "src": "assets/web/Photoes/Individual Photographic Works/B&W_5-1280.webp",
+        "width": 1280,
+        "height": 1280,
+        "bytes": 405394
+      },
+      {
+        "src": "assets/web/Photoes/Individual Photographic Works/B&W_5-2400.webp",
+        "width": 2400,
+        "height": 2400,
+        "bytes": 969220
+      }
+    ]
+  },
+  "Photoes/Individual Photographic Works/B&W_6.jpg": {
+    "original_bytes": 6629440,
+    "original_sha256": "a18997b32af56d9fe5f94b16108af2e9628abb2dade97ebe3918f124cb9078dc",
+    "variants": [
+      {
+        "src": "assets/web/Photoes/Individual Photographic Works/B&W_6-640.webp",
+        "width": 640,
+        "height": 640,
+        "bytes": 86652
+      },
+      {
+        "src": "assets/web/Photoes/Individual Photographic Works/B&W_6-1280.webp",
+        "width": 1280,
+        "height": 1280,
+        "bytes": 456178
+      },
+      {
+        "src": "assets/web/Photoes/Individual Photographic Works/B&W_6-2400.webp",
+        "width": 2400,
+        "height": 2400,
+        "bytes": 2151366
+      }
+    ]
+  },
+  "Photoes/Individual Photographic Works/B&W_7.jpg": {
+    "original_bytes": 1708265,
+    "original_sha256": "772fa3cf61b4c00be55bf535bb969821bc20761c8c8bcab5dc6ea2fe9e2d523e",
+    "variants": [
+      {
+        "src": "assets/web/Photoes/Individual Photographic Works/B&W_7-640.webp",
+        "width": 640,
+        "height": 279,
+        "bytes": 41032
+      },
+      {
+        "src": "assets/web/Photoes/Individual Photographic Works/B&W_7-1280.webp",
+        "width": 1280,
+        "height": 558,
+        "bytes": 114910
+      },
+      {
+        "src": "assets/web/Photoes/Individual Photographic Works/B&W_7-2400.webp",
+        "width": 2400,
+        "height": 1046,
+        "bytes": 338662
+      }
+    ]
+  },
+  "Photoes/Individual Photographic Works/B&W_8.jpg": {
     "original_bytes": 4096949,
     "original_sha256": "6f812bbb8162acd94ade9beb07dd94f0dad5ee803f15c38a0f8bd1258b17306c",
     "variants": [
       {
-        "src": "assets/web/Photoes/Individual Photographic Works/集体意识太难看-640.webp",
+        "src": "assets/web/Photoes/Individual Photographic Works/B&W_8-640.webp",
         "width": 640,
         "height": 640,
         "bytes": 115530
       },
       {
-        "src": "assets/web/Photoes/Individual Photographic Works/集体意识太难看-1280.webp",
+        "src": "assets/web/Photoes/Individual Photographic Works/B&W_8-1280.webp",
         "width": 1280,
         "height": 1280,
         "bytes": 280692
       },
       {
-        "src": "assets/web/Photoes/Individual Photographic Works/集体意识太难看-2400.webp",
+        "src": "assets/web/Photoes/Individual Photographic Works/B&W_8-2400.webp",
         "width": 2400,
         "height": 2400,
         "bytes": 1034006
+      }
+    ]
+  },
+  "Photoes/Individual Photographic Works/COLOR_1.png": {
+    "original_bytes": 23332817,
+    "original_sha256": "14fb72035d838469da229af158b89d83c480b3407876129f7f8c1b1f0f9cc8c9",
+    "variants": [
+      {
+        "src": "assets/web/Photoes/Individual Photographic Works/COLOR_1-640.webp",
+        "width": 640,
+        "height": 457,
+        "bytes": 45470
+      },
+      {
+        "src": "assets/web/Photoes/Individual Photographic Works/COLOR_1-1280.webp",
+        "width": 1280,
+        "height": 914,
+        "bytes": 152958
+      },
+      {
+        "src": "assets/web/Photoes/Individual Photographic Works/COLOR_1-2400.webp",
+        "width": 2400,
+        "height": 1714,
+        "bytes": 478654
+      }
+    ]
+  },
+  "Photoes/Individual Photographic Works/COLOR_2.jpg": {
+    "original_bytes": 1980915,
+    "original_sha256": "b25c15c685b3eaf73f57c820651be371cef0e8eb88496bb7ec3bb30603416cde",
+    "variants": [
+      {
+        "src": "assets/web/Photoes/Individual Photographic Works/COLOR_2-640.webp",
+        "width": 640,
+        "height": 480,
+        "bytes": 63462
+      },
+      {
+        "src": "assets/web/Photoes/Individual Photographic Works/COLOR_2-1280.webp",
+        "width": 1280,
+        "height": 960,
+        "bytes": 203358
+      },
+      {
+        "src": "assets/web/Photoes/Individual Photographic Works/COLOR_2-2400.webp",
+        "width": 2400,
+        "height": 1800,
+        "bytes": 490440
+      }
+    ]
+  },
+  "Photoes/Individual Photographic Works/COLOR_3.jpg": {
+    "original_bytes": 1776605,
+    "original_sha256": "e733ca3b9ccd57dde3ad0ee4ea2a06c48e759b74f64c0e62c08494a5c37b46d6",
+    "variants": [
+      {
+        "src": "assets/web/Photoes/Individual Photographic Works/COLOR_3-640.webp",
+        "width": 640,
+        "height": 480,
+        "bytes": 35966
+      },
+      {
+        "src": "assets/web/Photoes/Individual Photographic Works/COLOR_3-1280.webp",
+        "width": 1280,
+        "height": 960,
+        "bytes": 89668
+      },
+      {
+        "src": "assets/web/Photoes/Individual Photographic Works/COLOR_3-2400.webp",
+        "width": 2400,
+        "height": 1800,
+        "bytes": 210094
+      }
+    ]
+  },
+  "Photoes/Individual Photographic Works/COLOR_4.png": {
+    "original_bytes": 19161251,
+    "original_sha256": "5097bd89d7c75e3e29871b8b4accfd495137f2f63f464194b10e1748b6943880",
+    "variants": [
+      {
+        "src": "assets/web/Photoes/Individual Photographic Works/COLOR_4-640.webp",
+        "width": 457,
+        "height": 640,
+        "bytes": 59334
+      },
+      {
+        "src": "assets/web/Photoes/Individual Photographic Works/COLOR_4-1280.webp",
+        "width": 914,
+        "height": 1280,
+        "bytes": 268694
+      },
+      {
+        "src": "assets/web/Photoes/Individual Photographic Works/COLOR_4-2400.webp",
+        "width": 1714,
+        "height": 2400,
+        "bytes": 892912
+      }
+    ]
+  },
+  "Photoes/Individual Photographic Works/COLOR_5.png": {
+    "original_bytes": 23386457,
+    "original_sha256": "2a3f1bf389265ac86acd6d95bcf56b12f25b134232f920dd9bfd0366b7dc04fb",
+    "variants": [
+      {
+        "src": "assets/web/Photoes/Individual Photographic Works/COLOR_5-640.webp",
+        "width": 640,
+        "height": 457,
+        "bytes": 36440
+      },
+      {
+        "src": "assets/web/Photoes/Individual Photographic Works/COLOR_5-1280.webp",
+        "width": 1280,
+        "height": 914,
+        "bytes": 112758
+      },
+      {
+        "src": "assets/web/Photoes/Individual Photographic Works/COLOR_5-2400.webp",
+        "width": 2400,
+        "height": 1714,
+        "bytes": 392998
       }
     ]
   },
