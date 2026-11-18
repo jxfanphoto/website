@@ -209,6 +209,30 @@
       }
     ]
   },
+  "Photoes/Color.jpg": {
+    "original_bytes": 5469057,
+    "original_sha256": "511c674d58c66a58784cb45e45539d4a877c6746b84ba7db0c28ec8f17a9b090",
+    "variants": [
+      {
+        "src": "assets/web/Photoes/Color-640.webp",
+        "width": 395,
+        "height": 640,
+        "bytes": 20586
+      },
+      {
+        "src": "assets/web/Photoes/Color-1280.webp",
+        "width": 791,
+        "height": 1280,
+        "bytes": 48884
+      },
+      {
+        "src": "assets/web/Photoes/Color-2400.webp",
+        "width": 1483,
+        "height": 2400,
+        "bytes": 103406
+      }
+    ]
+  },
   "Photoes/Discarded Fragments.png": {
     "original_bytes": 30963351,
     "original_sha256": "86808c11f5034c9349006d01e958552fde20974776d8702bb5af798aeddac192",
